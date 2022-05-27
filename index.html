@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flower Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <form action="#" name="calculator" method="get">
+      <section>
+        <h2>Main</h2>
+        <label for="type-1">Flower</label>
+        <select name="type-1" id="type-1">
+          <option value="15">Rose</option>
+          <option value="12">Lily</option>
+          <option value="10">Tulip</option>
+        </select>
+        <br />
+        <input type="radio" name="color-1" value="red" id="color-red-1" />
+        <label for="color-red-1">Red</label>
+        <input type="radio" name="color-1" value="white" id="color-white-1" />
+        <label for="color-white-1">White</label>
+        <input type="radio" name="color-1" value="pink" id="color-pink-1" />
+        <label for="color-pink-1">Pink</label>
+        <input type="radio" name="color-1" value="yellow" id="color-yellow-1" />
+        <label for="color-yellow-1">Yellow</label>
+        <br />
+        <label for="amount-1">Amount</label>
+        <input
+          type="number"
+          name="amount-1"
+          id="amount-1"
+          placeholder="Amount"
+          min="0"
+          max="1000"
+          value="0"
+        />
+      </section>
+
+      <hr />
+
+      <section>
+        <h2>Addition</h2>
+        <label for="type-2">Flower</label>
+        <select name="type-2" id="type-2">
+          <option value="15">Rose</option>
+          <option value="12">Lily</option>
+          <option value="10">Tulip</option>
+        </select>
+        <br />
+        <input type="radio" name="color-2" value="red" id="color-red-2" />
+        <label for="color-red-2">Red</label>
+        <input type="radio" name="color-2" value="white" id="color-white-2" />
+        <label for="color-white-2">White</label>
+        <input type="radio" name="color-2" value="pink" id="color-pink-2" />
+        <label for="color-pink-2">Pink</label>
+        <input type="radio" name="color-2" value="yellow" id="color-yellow-2" />
+        <label for="color-yellow-2">Yellow</label>
+        <br />
+        <label for="amount-2">Amount</label>
+        <input
+          type="number"
+          name="amount-2"
+          id="amount-2"
+          placeholder="Amount"
+          min="0"
+          max="1000"
+          value="0"
+        />
+      </section>
+
+      <hr />
+
+      <section>
+        <h2>Extra</h2>
+        <label for="type-3">Flower</label>
+        <select name="type-3" id="type-3">
+          <option value="15">Rose</option>
+          <option value="12">Lily</option>
+          <option value="10">Tulip</option>
+        </select>
+        <br />
+        <input type="radio" name="color-3" value="red" id="color-red-3" />
+        <label for="color-red-3">Red</label>
+        <input type="radio" name="color-3" value="white" id="color-white-3" />
+        <label for="color-white-3">White</label>
+        <input type="radio" name="color-3" value="pink" id="color-pink-3" />
+        <label for="color-pink-3">Pink</label>
+        <input type="radio" name="color-3" value="yellow" id="color-yellow-3" />
+        <label for="color-yellow-3">Yellow</label>
+        <br />
+        <label for="amount-3">Amount</label>
+        <input
+          type="number"
+          name="amount-3"
+          id="amount-3"
+          placeholder="Amount"
+          min="0"
+          max="1000"
+          value="0"
+        />
+      </section>
+
+      <hr />
+
+      <input type="submit" value="Calculate" name="submit" />
+      <h2 id="total" class="total"></h2>
+    </form>
+  </body>
+</html>

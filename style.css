@@ -1,0 +1,14 @@
+form {
+    background-color: rgb(84, 164, 104);
+    color: white;
+    padding: 1em;
+    width: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+}
+
+section h2 {
+    margin: 0.2em;
+    text-align: center;
+}
